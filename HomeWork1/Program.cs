@@ -22,6 +22,7 @@
             {
                 Console.WriteLine($"Я уверен, что имени \"{ex.Message}\" не существует... Попробуем заново.");
                 Main();
+                // Simple comment
             }
         }
     }
