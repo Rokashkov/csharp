@@ -33,7 +33,6 @@ namespace App.Middlewares
             try
             {
                 await _next(context);
-
             }
             catch (HttpException ex)
             {
